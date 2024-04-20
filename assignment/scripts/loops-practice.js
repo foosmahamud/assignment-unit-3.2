@@ -16,8 +16,16 @@ for (let i=0; i<4; i++) {
     console.log(i);
     console.log('count from 0 to 5');
 
+    let index = 0;
+    let max = 5;
+    // while loop
+   while( index < max ) {
+    console.log('in while loop. index', index);
+    index++;
+    
    }
 
+   }
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
